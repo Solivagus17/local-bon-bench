@@ -1,0 +1,302 @@
+[
+ {
+  "id": "m01",
+  "type": "math",
+  "question": "What is the sum of all integers from 1 to 200 (inclusive) that are divisible by 3 or by 5?",
+  "answer": 9368
+ },
+ {
+  "id": "m02",
+  "type": "math",
+  "question": "How many positive divisors does 360 have?",
+  "answer": 24
+ },
+ {
+  "id": "m03",
+  "type": "math",
+  "question": "What is the remainder when 7^100 is divided by 13?",
+  "answer": 9
+ },
+ {
+  "id": "m04",
+  "type": "math",
+  "question": "A train travels 180 km at 60 km/h, then 120 km at 40 km/h. What is its average speed for the whole trip, in km/h?",
+  "answer": 50
+ },
+ {
+  "id": "m05",
+  "type": "math",
+  "question": "How many 4-digit numbers (1000 to 9999) have digits that add up to 10?",
+  "answer": 219
+ },
+ {
+  "id": "m06",
+  "type": "math",
+  "question": "Two numbers have sum 50 and product 600. What is the sum of their squares?",
+  "answer": 1300
+ },
+ {
+  "id": "m07",
+  "type": "math",
+  "question": "From 10 people, how many ways are there to choose a committee of 3 if two specific people, A and B, must not both be on it?",
+  "answer": 112
+ },
+ {
+  "id": "m08",
+  "type": "math",
+  "question": "What is the least common multiple of 84 and 90?",
+  "answer": 1260
+ },
+ {
+  "id": "m09",
+  "type": "math",
+  "question": "How many trailing zeros does 100! (100 factorial) have?",
+  "answer": 24
+ },
+ {
+  "id": "m10",
+  "type": "math",
+  "question": "A shirt originally costs $150. Its price is increased by 20%, then the new price is decreased by 20%. What is the final price in dollars?",
+  "answer": 144
+ },
+ {
+  "id": "m11",
+  "type": "math",
+  "question": "The quadratic x^2 - 9x + 14 = 0 has two roots. What is the sum of the squares of the roots?",
+  "answer": 53
+ },
+ {
+  "id": "m12",
+  "type": "math",
+  "question": "How many distinct arrangements are there of the letters in the word BANANA?",
+  "answer": 60
+ },
+ {
+  "id": "m13",
+  "type": "math",
+  "question": "What is the sum of the first 20 terms of an arithmetic sequence with first term 5 and common difference 3?",
+  "answer": 670
+ },
+ {
+  "id": "m14",
+  "type": "math",
+  "question": "What is the largest prime factor of 8633?",
+  "answer": 97
+ },
+ {
+  "id": "m15",
+  "type": "math",
+  "question": "How many positive integers n with n <= 100 make n^2 + n divisible by 6?",
+  "answer": 66
+ },
+ {
+  "id": "m16",
+  "type": "math",
+  "question": "Pipe A fills a tank in 6 hours, pipe B fills it in 12 hours, and pipe C drains it in 9 hours. With all three open at once and the tank starting empty, how many hours does it take to fill? Give a decimal.",
+  "answer": 7.2
+ },
+ {
+  "id": "m17",
+  "type": "math",
+  "question": "Compute 2^10 + 3^5 - 4^4.",
+  "answer": 1011
+ },
+ {
+  "id": "m18",
+  "type": "math",
+  "question": "If f(x) = 2x + 3 and g(x) = x^2 - 1, what is f(g(4))?",
+  "answer": 33
+ },
+ {
+  "id": "m19",
+  "type": "math",
+  "question": "How many ways can you climb 10 stairs if each move is 1 or 2 steps?",
+  "answer": 89
+ },
+ {
+  "id": "m20",
+  "type": "math",
+  "question": "What is the sum of the digits of 2^50?",
+  "answer": 76
+ },
+ {
+  "id": "m21",
+  "type": "math",
+  "question": "How many integers from 1 to 1000 inclusive are perfect squares or perfect cubes (or both)?",
+  "answer": 38
+ },
+ {
+  "id": "m22",
+  "type": "math",
+  "question": "A rectangle has perimeter 54 and area 180. What is the square of its diagonal length?",
+  "answer": 369
+ },
+ {
+  "id": "m23",
+  "type": "math",
+  "question": "$2000 is invested at 5% interest compounded annually for 3 years. What is the final amount in dollars, rounded to the nearest cent?",
+  "answer": 2315.25
+ },
+ {
+  "id": "m24",
+  "type": "math",
+  "question": "Let F(1)=1, F(2)=1, and F(n)=F(n-1)+F(n-2). What is F(15)?",
+  "answer": 610
+ },
+ {
+  "id": "m25",
+  "type": "math",
+  "question": "How many integers from 1 to 500 inclusive are divisible by neither 4 nor 6?",
+  "answer": 333
+ },
+ {
+  "id": "c01",
+  "type": "code",
+  "question": "Write a Python function is_palindrome(s) that returns True if the string s reads the same forwards and backwards, ignoring case and all non-alphanumeric characters, otherwise False.",
+  "tests": "assert is_palindrome(\"A man, a plan, a canal: Panama\") is True\nassert is_palindrome(\"race a car\") is False\nassert is_palindrome(\"\") is True\nassert is_palindrome(\"No 'x' in Nixon\") is True\nassert is_palindrome(\"ab\") is False"
+ },
+ {
+  "id": "c02",
+  "type": "code",
+  "question": "Write a Python function two_sum(nums, target) that returns a list [i, j] with i < j: the indices of the two numbers that add up to target. Exactly one solution exists.",
+  "tests": "assert two_sum([2,7,11,15],9)==[0,1]\nassert two_sum([3,2,4],6)==[1,2]\nassert two_sum([3,3],6)==[0,1]\nassert two_sum([-1,-2,-3,-4,-5],-8)==[2,4]"
+ },
+ {
+  "id": "c03",
+  "type": "code",
+  "question": "Write a Python function eval_rpn(tokens) that evaluates a Reverse Polish Notation expression given as a list of strings (operators + - * /, integer operands, possibly negative). Division truncates toward zero. Return an int.",
+  "tests": "assert eval_rpn([\"2\",\"1\",\"+\",\"3\",\"*\"])==9\nassert eval_rpn([\"4\",\"13\",\"5\",\"/\",\"+\"])==6\nassert eval_rpn([\"10\",\"6\",\"9\",\"3\",\"+\",\"-11\",\"*\",\"/\",\"*\",\"17\",\"+\",\"5\",\"+\"])==22\nassert eval_rpn([\"-7\",\"2\",\"/\"])==-3\nassert eval_rpn([\"7\",\"-2\",\"/\"])==-3\nassert eval_rpn([\"5\"])==5"
+ },
+ {
+  "id": "c04",
+  "type": "code",
+  "question": "Write a Python function roman_to_int(s) that converts a Roman numeral string (valid, 1 to 3999) to an integer.",
+  "tests": "assert roman_to_int(\"III\")==3\nassert roman_to_int(\"LVIII\")==58\nassert roman_to_int(\"MCMXCIV\")==1994\nassert roman_to_int(\"IV\")==4\nassert roman_to_int(\"XL\")==40"
+ },
+ {
+  "id": "c05",
+  "type": "code",
+  "question": "Write a Python function int_to_roman(n) that converts an integer from 1 to 3999 to its standard Roman numeral string.",
+  "tests": "assert int_to_roman(3)==\"III\"\nassert int_to_roman(58)==\"LVIII\"\nassert int_to_roman(1994)==\"MCMXCIV\"\nassert int_to_roman(4)==\"IV\"\nassert int_to_roman(3999)==\"MMMCMXCIX\""
+ },
+ {
+  "id": "c06",
+  "type": "code",
+  "question": "Write a Python function is_balanced(s) that returns True if all brackets ()[]{} in the string s are correctly matched and nested. Other characters are ignored. An empty string is balanced.",
+  "tests": "assert is_balanced(\"()[]{}\") is True\nassert is_balanced(\"(]\") is False\nassert is_balanced(\"([{}])\") is True\nassert is_balanced(\"((\") is False\nassert is_balanced(\"\") is True\nassert is_balanced(\"a(b)c\") is True\nassert is_balanced(\"}{\") is False"
+ },
+ {
+  "id": "c07",
+  "type": "code",
+  "question": "Write a Python function merge_intervals(intervals) that takes a list of [start, end] lists and merges all overlapping intervals (intervals that touch, like [1,4] and [4,5], count as overlapping). Return a sorted list of [start, end] lists.",
+  "tests": "assert merge_intervals([[1,3],[2,6],[8,10],[15,18]])==[[1,6],[8,10],[15,18]]\nassert merge_intervals([[1,4],[4,5]])==[[1,5]]\nassert merge_intervals([])==[]\nassert merge_intervals([[5,6],[1,2]])==[[1,2],[5,6]]\nassert merge_intervals([[1,10],[2,3]])==[[1,10]]"
+ },
+ {
+  "id": "c08",
+  "type": "code",
+  "question": "Write a Python function flatten(lst) that flattens a list nested to any depth into a single flat list, preserving order.",
+  "tests": "assert flatten([1,[2,[3,[4]],5]])==[1,2,3,4,5]\nassert flatten([])==[]\nassert flatten([[],[[]]])==[]\nassert flatten([1,2,3])==[1,2,3]\nassert flatten([[\"a\"],[\"b\",[\"c\"]]])==[\"a\",\"b\",\"c\"]"
+ },
+ {
+  "id": "c09",
+  "type": "code",
+  "question": "Write a Python function word_freq(text) that lowercases the text and counts words, where a word is a maximal run of letters a-z. Return a dict mapping word to count.",
+  "tests": "assert word_freq(\"Hello, hello world!\")=={\"hello\":2,\"world\":1}\nassert word_freq(\"\")=={}\nassert word_freq(\"It's it's\")=={\"it\":2,\"s\":2}\nassert word_freq(\"A a a b\")=={\"a\":3,\"b\":1}"
+ },
+ {
+  "id": "c10",
+  "type": "code",
+  "question": "Write a Python function longest_common_prefix(strs) that returns the longest common prefix of a list of strings, or an empty string if there is none or the list is empty.",
+  "tests": "assert longest_common_prefix([\"flower\",\"flow\",\"flight\"])==\"fl\"\nassert longest_common_prefix([\"dog\",\"racecar\",\"car\"])==\"\"\nassert longest_common_prefix([\"a\"])==\"a\"\nassert longest_common_prefix([])==\"\"\nassert longest_common_prefix([\"abc\",\"abc\"])==\"abc\""
+ },
+ {
+  "id": "c11",
+  "type": "code",
+  "question": "Write a Python function rotate_right(lst, k) that returns a NEW list rotated to the right by k positions (k is a non-negative int and may exceed len(lst)). Do not modify the input list. An empty list returns [].",
+  "tests": "assert rotate_right([1,2,3,4,5],2)==[4,5,1,2,3]\nassert rotate_right([1,2,3],0)==[1,2,3]\nassert rotate_right([1,2,3],4)==[3,1,2]\nassert rotate_right([],5)==[]\nassert rotate_right([1],10)==[1]\na=[1,2,3]\nrotate_right(a,1)\nassert a==[1,2,3]"
+ },
+ {
+  "id": "c12",
+  "type": "code",
+  "question": "Write a Python function is_anagram(a, b) that returns True if strings a and b are anagrams of each other, ignoring case and spaces.",
+  "tests": "assert is_anagram(\"Listen\",\"Silent\") is True\nassert is_anagram(\"Dormitory\",\"dirty room\") is True\nassert is_anagram(\"abc\",\"abd\") is False\nassert is_anagram(\"a\",\"aa\") is False\nassert is_anagram(\"\",\"\") is True"
+ },
+ {
+  "id": "c13",
+  "type": "code",
+  "question": "Write a Python function second_largest(nums) that returns the second largest DISTINCT value in a list of numbers, or None if there are fewer than two distinct values.",
+  "tests": "assert second_largest([1,2,3])==2\nassert second_largest([5,5,5]) is None\nassert second_largest([2,2,1])==1\nassert second_largest([]) is None\nassert second_largest([-1,-5,-3])==-3\nassert second_largest([7]) is None"
+ },
+ {
+  "id": "c14",
+  "type": "code",
+  "question": "Write a Python function binary_search(arr, target) that searches an ascending sorted list of distinct integers and returns the index of target, or -1 if absent. It must run in O(log n).",
+  "tests": "assert binary_search([1,3,5,7,9],7)==3\nassert binary_search([1,3,5],4)==-1\nassert binary_search([],1)==-1\nassert binary_search([5],5)==0\narr=list(range(0,1000,2))\nassert binary_search(arr,998)==499\nassert binary_search(arr,999)==-1"
+ },
+ {
+  "id": "c15",
+  "type": "code",
+  "question": "Write a Python function decode_string(s) that decodes strings of the form k[encoded], meaning encoded repeated k times; encodings can be nested. Example: '3[a2[c]]' -> 'accaccacc'. Digits only appear as repeat counts.",
+  "tests": "assert decode_string(\"3[a]2[bc]\")==\"aaabcbc\"\nassert decode_string(\"3[a2[c]]\")==\"accaccacc\"\nassert decode_string(\"2[abc]3[cd]ef\")==\"abcabccdcdcdef\"\nassert decode_string(\"abc\")==\"abc\"\nassert decode_string(\"10[a]\")==\"a\"*10"
+ },
+ {
+  "id": "c16",
+  "type": "code",
+  "question": "Write a Python function chunk_list(lst, size) that splits a list into consecutive chunks of the given size (size >= 1); the last chunk may be shorter. Return a list of lists.",
+  "tests": "assert chunk_list([1,2,3,4,5],2)==[[1,2],[3,4],[5]]\nassert chunk_list([],3)==[]\nassert chunk_list([1,2,3],3)==[[1,2,3]]\nassert chunk_list([1,2,3],5)==[[1,2,3]]\nassert chunk_list([1,2,3,4],1)==[[1],[2],[3],[4]]"
+ },
+ {
+  "id": "c17",
+  "type": "code",
+  "question": "Write a Python function lis_length(nums) that returns the length of the longest STRICTLY increasing subsequence of a list of integers (0 for an empty list). It must handle lists of 2000 elements quickly.",
+  "tests": "assert lis_length([10,9,2,5,3,7,101,18])==4\nassert lis_length([0,1,0,3,2,3])==4\nassert lis_length([7,7,7])==1\nassert lis_length([])==0\nassert lis_length(list(range(2000)))==2000\nassert lis_length(list(range(2000,0,-1)))==1"
+ },
+ {
+  "id": "c18",
+  "type": "code",
+  "question": "Write a Python function caesar(s, shift) that shifts each letter forward by shift positions in the alphabet with wraparound, preserving case and leaving non-letters unchanged. shift may be negative or larger than 26.",
+  "tests": "assert caesar(\"abc\",1)==\"bcd\"\nassert caesar(\"xyz\",3)==\"abc\"\nassert caesar(\"Hello, World!\",5)==\"Mjqqt, Btwqi!\"\nassert caesar(\"abc\",-1)==\"zab\"\nassert caesar(\"abc\",27)==\"bcd\"\nassert caesar(\"ABC\",0)==\"ABC\""
+ },
+ {
+  "id": "c19",
+  "type": "code",
+  "question": "Write a Python function pascal_row(n) that returns row n (0-indexed) of Pascal's triangle as a list of ints.",
+  "tests": "assert pascal_row(0)==[1]\nassert pascal_row(1)==[1,1]\nassert pascal_row(4)==[1,4,6,4,1]\nassert pascal_row(6)==[1,6,15,20,15,6,1]\nassert pascal_row(10)[5]==252"
+ },
+ {
+  "id": "c20",
+  "type": "code",
+  "question": "Write a Python function group_anagrams(words) that groups words that are anagrams of each other. Return a list of groups; each group is sorted alphabetically, and the groups are sorted by their first word.",
+  "tests": "assert group_anagrams([\"eat\",\"tea\",\"tan\",\"ate\",\"nat\",\"bat\"])==[[\"ate\",\"eat\",\"tea\"],[\"bat\"],[\"nat\",\"tan\"]]\nassert group_anagrams([])==[]\nassert group_anagrams([\"a\"])==[[\"a\"]]\nassert group_anagrams([\"ab\",\"ba\",\"abc\"])==[[\"ab\",\"ba\"],[\"abc\"]]"
+ },
+ {
+  "id": "c21",
+  "type": "code",
+  "question": "Write a Python function max_subarray_sum(nums) that returns the largest sum of any non-empty contiguous subarray of a non-empty list of integers.",
+  "tests": "assert max_subarray_sum([-2,1,-3,4,-1,2,1,-5,4])==6\nassert max_subarray_sum([1])==1\nassert max_subarray_sum([-3,-1,-2])==-1\nassert max_subarray_sum([5,4,-1,7,8])==23\nassert max_subarray_sum([-2,-1])==-1"
+ },
+ {
+  "id": "c22",
+  "type": "code",
+  "question": "Write a Python function count_islands(grid) where grid is a list of strings made of '1' (land) and '0' (water). Return the number of islands, where an island is a group of '1' cells connected horizontally or vertically (not diagonally). An empty grid has 0 islands.",
+  "tests": "assert count_islands([\"11110\",\"11010\",\"11000\",\"00000\"])==1\nassert count_islands([\"11000\",\"11000\",\"00100\",\"00011\"])==3\nassert count_islands([])==0\nassert count_islands([\"0\"])==0\nassert count_islands([\"101\",\"010\",\"101\"])==5"
+ },
+ {
+  "id": "c23",
+  "type": "code",
+  "question": "Write a Python function transpose(matrix) that returns the transpose of a rectangular matrix given as a list of lists.",
+  "tests": "assert transpose([[1,2,3],[4,5,6]])==[[1,4],[2,5],[3,6]]\nassert transpose([[1]])==[[1]]\nassert transpose([[1,2],[3,4]])==[[1,3],[2,4]]\nassert transpose([[1],[2],[3]])==[[1,2,3]]"
+ },
+ {
+  "id": "c24",
+  "type": "code",
+  "question": "Write a Python function run_length(s) that run-length encodes a string by writing each run as the character followed by its count, always including the count. Example: 'aaabcc' -> 'a3b1c2'. An empty string returns an empty string.",
+  "tests": "assert run_length(\"aaabcc\")==\"a3b1c2\"\nassert run_length(\"\")==\"\"\nassert run_length(\"z\")==\"z1\"\nassert run_length(\"aabbaa\")==\"a2b2a2\"\nassert run_length(\"a\"*12)==\"a12\""
+ },
+ {
+  "id": "c25",
+  "type": "code",
+  "question": "Write a Python function valid_ipv4(s) that returns True if s is a valid IPv4 address: exactly four dot-separated decimal parts, each from 0 to 255, with no leading zeros (except the single digit '0'), and no other characters.",
+  "tests": "assert valid_ipv4(\"192.168.1.1\") is True\nassert valid_ipv4(\"256.1.1.1\") is False\nassert valid_ipv4(\"1.2.3\") is False\nassert valid_ipv4(\"01.2.3.4\") is False\nassert valid_ipv4(\"0.0.0.0\") is True\nassert valid_ipv4(\"1.2.3.4.5\") is False\nassert valid_ipv4(\"a.b.c.d\") is False\nassert valid_ipv4(\"255.255.255.255\") is True\nassert valid_ipv4(\"1.2.3.-4\") is False\nassert valid_ipv4(\"\") is False"
+ }
+]
